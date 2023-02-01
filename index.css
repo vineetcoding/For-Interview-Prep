@@ -1,0 +1,12 @@
+*{
+    border: 1px solid gray;
+}
+h1{
+    /* width: 50%; */
+    height: 100px;
+    display: inline-block;  /*it work like display inline but we can give height in it*/
+}
+h2{
+    display: inline; /*we can't give hight in display inline */
+    /* display: initial; */
+}
