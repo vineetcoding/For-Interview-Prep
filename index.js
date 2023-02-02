@@ -242,3 +242,42 @@
 //   age
 // }
 // console.log(obj2);
+//===================================================================
+
+// Prototype
+//For example, 
+// function Person () {
+//     this.name = 'John',
+//     this. age = 23
+// }
+// const persons = new Person(); // checking the prototype value console.
+// console.log(persons);
+
+
+//=======================================================================
+// event bubbling => bubbling is go child to parent 
+// event capturing => capturing is go parent to child
+
+
+
+//=======================================================================
+// debouncing(it solve typing leters into input) => It is a function and it takes 2 argument (function , delay)
+//                if we type in search box every leter it call api or run code but if we want
+//                call is run or call api when use is pause or stop typing then we can use debouncing. 
+
+
+// Throttling(it solve click many time) => it is mainly use for code optimization, It is also a function and it takes 2 argument (function , delay) 
+//                and if use click many time on buttion so api call many time then we can use this and give some time delay between api call
+
+//====================================================================================
+
+// Currying
+// let multiply = function (x , y){
+//     console.log(x * y);
+// }
+// let multiplybytwo = multiply.bind(this, 2); // bind return function
+// multiplybytwo(6);
+
+// let multiplybyfive = multiply.bind(this, 5);
+// multiplybyfive(10);
+
