@@ -281,3 +281,82 @@
 // let multiplybyfive = multiply.bind(this, 5);
 // multiplybyfive(10);
 
+//=====================================================================================
+
+//callbacks
+// const datas = [
+//     {name: "ajay", city:"delhi"},
+//     {name: "anuj", city: "delhi"}
+// ];
+// function setDatas(){
+//     setTimeout(()=>{
+//         let output = "";
+//         datas.forEach((data, index)=>{
+//             output += `<li>${data.name}</li>`
+//         })
+//         document.body.innerHTML = output;
+//     },1000);
+// }
+// setDatas()
+//=======================================================================
+
+// // async javascript
+
+// function async(){
+//     setTimeout(()=>{       // => 3rd (1)
+//         console.log("1");
+//     },1000);
+// }
+// function async2(){        // => 5th (5)
+//     setTimeout(()=>{
+//         console.log("2");
+//     },5000);
+// }
+// function sync(){          // => 1st  (3)
+//     console.log("3");
+// }
+// function async3(){
+//     setTimeout(()=>{      // => 4th (4)
+//         console.log("4")
+//     },3000)
+// }
+// function sync2(){          // => 2nd   (2)
+//     console.log("5");
+// }
+
+// async();
+// async2();
+// sync();
+// async3();
+// sync2();
+// // output => 3,2,1,4,5
+//===============================================================================
+
+// 
+// let a = [2,5,7,8]
+// console.log(a);
+
+//promise
+const cart = ["shoes", "pants", "kurta"];
+
+// createOrder(cart, function (orderId) {
+//     proceedToPayment(orderId);
+// })
+
+const promise = createOrder(cart);
+
+promise.then(function (orderId) {
+    proceedToPayment(orderId);
+});
+
+
+
+
+
+
+
+
+
+
+
+
