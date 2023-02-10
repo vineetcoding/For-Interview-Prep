@@ -1,6 +1,9 @@
 *{
     border: 1px solid gray;
 }
+body{
+    background-color: aqua;
+}
 h1{
     /* width: 50%; */
     height: 100px;
@@ -10,3 +13,40 @@ h2{
     display: inline; /*we can't give hight in display inline */
     /* display: initial; */
 }
+
+
+/* one way to center a Div*/
+
+.main_div{         
+    border: solid black;
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main_div{
+    border: solid black;
+    width: 30%;
+    height: 200px;
+}
+
+/* second way to center a Div using display flex it give to pairent */
+/* Note:- if we want to center a div inside the body with dispaly flex then we have to give hight as 100vh */
+
+/* body{
+    height: 100vh;   
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_div{
+    border: solid black;
+    width: 30%;
+    height: 200px;
+} */
+
+/* third way to center a div */
+
