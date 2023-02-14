@@ -337,19 +337,23 @@
 // console.log(a);
 
 //promise
-const cart = ["shoes", "pants", "kurta"];
+// const cart = ["shoes", "pants", "kurta"];
 
-// createOrder(cart, function (orderId) {
+// // createOrder(cart, function (orderId) {
+// //     proceedToPayment(orderId);
+// // })
+
+// const promise = createOrder(cart);
+
+// promise.then(function (orderId) {
 //     proceedToPayment(orderId);
-// })
+// });
 
-const promise = createOrder(cart);
+let proObj = new Promise((resolve, reject)=>{
 
-promise.then(function (orderId) {
-    proceedToPayment(orderId);
-});
-
-
+    resolve();
+    reject();
+}).then("resolve").catch("reject error")
 
 
 
