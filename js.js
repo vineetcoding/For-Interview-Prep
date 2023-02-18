@@ -2,7 +2,8 @@
 //                        and is visible in, all other scopes. In client-side JavaScript, 
 //                        the global scope is generally the web page inside which all the code is being executed.
 
-// Q-2-> Local Scope => 
+// Q-2-> Local Scope => Local Scope occurs when you create a variable inside a function. By doing that, the visibility
+//                      and accessibility of the variable is only allowed within that function
 
 
 // Q-3-> Variables => it is like a container we can put any value inside the variable. It's does not start with number.
@@ -12,8 +13,13 @@
 //                    variable (also known as identifiers). Name must start with a  
 //                    letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign.
 
-// hoising
-// temporal Dead Zone
+// Q-4-> hoising => Hoisting in JavaScript is the behavior by which the declaration of variables 
+//                  and functions are moved to the top. This means that the variable or function 
+//                  declaration need not be done before initializing and calling them. Hoisting 
+//                  will happen only if var is used for declaration and not with const or let declarations.
+
+// Q-5-> temporal Dead Zone => 
+
 // Loops
 // Array - all array methods
 // object - add remove key/value
