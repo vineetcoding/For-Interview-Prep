@@ -12,6 +12,8 @@
 //       5- Simplicity
 //       6- Rective Performance
 
+// Class Component => it is ES6 class and return jsx
+
 // Q.3=> Unidirectional flow in React ?
 // Ans=> 
 
