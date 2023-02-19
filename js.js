@@ -20,7 +20,7 @@
 
 // Q-5-> temporal Dead Zone => 
 
-// Loops
+// Q-5-> Loops
 // Array - all array methods
 // object - add remove key/value
 // this keyword
