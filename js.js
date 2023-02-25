@@ -18,7 +18,7 @@
 //                  declaration need not be done before initializing and calling them. Hoisting 
 //                  will happen only if var is used for declaration and not with const or let declarations.
 
-// Q-5-> temporal Dead Zone => 
+// Q-5-> temporal Dead Zone(TDZ) => 
 
 // Q-5-> Loops
 // Array - all array methods
